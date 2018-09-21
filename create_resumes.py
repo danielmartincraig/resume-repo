@@ -1,0 +1,6 @@
+import os
+
+companyList = ['3M', 'Amazon', 'AmericanExpress', 'AuroraFlightSciences', 'AutolivASP', 'BoseCorporation', 'ChurchOfJesusChristOfLatterDaySaints', 'ClearwaterAnalytics', 'Cvent', 'Dell', 'Epic', 'FMGlobalJohnston', 'FocusEngineering', 'HenrySchein', 'HillAFB', 'Hilton', 'Honeywell', 'IMFlash', 'J.M.Smucker', 'JanickiIndustries', 'LawrenceLivermore', 'LockheedMartin', 'MarriottInternational', 'Micron', 'MicrosoftCorporate', 'MotorolaSolutions', 'NorthrupGrummanInnovationSystemsSector', 'ONSemiconductor', 'Overstock.com', 'Pariveda', 'PepsiCo', 'PetSmart', 'Pfizer', 'PolyOneCorporation', 'ProctorAndGamble', 'Proofpoint', 'Qualtrics', 'Rincon', 'RK', 'SandiaNationalLabs', 'SolarTurbines', 'SouthwestAirlines', 'Thumbtack', 'UbiquitiNetworks', 'UnionWireless', 'USSynthetic', 'UDOT', 'WalmartLabs', 'Wavetronix', 'Wencor', 'Workfront', 'ZionBank', 'AcuteEngineering', 'BHI', 'GeneralMotors', 'Instructure', 'IntelCorporation', 'J.M.Smucker', 'LockheedMartin', 'LosAlamosNationalLab', 'Lucid', 'MarvellSemiconductor', 'Micron', 'Mortenson', 'NationalInstruments', 'Navigant', 'OpenEdge', 'Oracle', 'OwensCorning', 'Pluralsight', 'RAMManufacturingCompany', 'SandiaNationalLabs', 'SunriseTechnologies', 'TRCCompanies', 'WalmartLabs']
+
+for company in companyList:
+    os.system("cp DanielCraigResume.docx resumes/DanielCraigResume" + company + ".docx")
